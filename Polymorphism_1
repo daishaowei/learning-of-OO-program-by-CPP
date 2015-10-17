@@ -18,6 +18,7 @@ int main(void)
 
 //多态是基于：封装和继承
 //动态多态是晚绑定：
+//不使用虚函数
 class Shape
 {
 public:
@@ -63,7 +64,7 @@ int main(void)
   ....
   return;
 }
-//虚函数
+//使用虚函数
 class Shape
 {
 public:
